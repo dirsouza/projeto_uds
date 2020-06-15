@@ -1,0 +1,6 @@
+export * from '@/store/modules/adicional'
+export * from '@/store/modules/load'
+export * from '@/store/modules/notificacao'
+export * from '@/store/modules/produto'
+export * from '@/store/modules/sabor'
+export * from '@/store/modules/sacola'

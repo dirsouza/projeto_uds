@@ -1,0 +1,35 @@
+{
+  "name": "api-uds",
+  "title": "API RESTful - AçaísPersonalizados",
+  "version": "1.0.0",
+  "description": "API RESTfull deticada a aplicação AçaísPersonalizados",
+  "main": "src/index.js",
+  "scripts": {
+    "serve": "nodemon",
+    "build": "npx gulp",
+    "prod": "npx pm2 start ./dist/index.min.js --name api",
+    "prod:restart": "npx pm2 restart api",
+    "prod:stop": "npx pm2 stop api",
+    "prod:del": "npx pm2 delete api"
+  },
+  "repository": "https://github.com/dirsouza/api-uds.git",
+  "author": "Diogo Souza",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "json-server": "^0.16.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "delete": "^1.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-terser": "^1.2.0",
+    "node-dev": "^4.0.0",
+    "nodemon": "^2.0.4"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Frozen de Açaí",
+      "descricao": "Frozen de açaí de 300ml",
+      "categoria": "pequeno",
+      "tamanho": 300,
+      "unidade": "ml",
+      "valor": 10,
+      "tempo_preparo": 5
+    },
+    {
+      "id": 2,
+      "nome": "Frozen de Açaí",
+      "descricao": "Frozen de açaí de 500ml",
+      "categoria": "médio",
+      "tamanho": 500,
+      "unidade": "ml",
+      "valor": 13,
+      "tempo_preparo": 7
+    },
+    {
+      "id": 3,
+      "nome": "Frozen de Açaí",
+      "descricao": "Frozen de açaí de 700ml",
+      "categoria": "grande",
+      "tamanho": 700,
+      "unidade": "ml",
+      "valor": 15,
+      "tempo_preparo": 10
+    }
+  ],
+  "sabores": [
+    {
+      "id": 1,
+      "nome": "morango",
+      "tempo_preparo": 0
+    },
+    {
+      "id": 2,
+      "nome": "banana",
+      "tempo_preparo": 0
+    },
+    {
+      "id": 3,
+      "nome": "kiwi",
+      "tempo_preparo": 5
+    }
+  ],
+  "adicionais": [
+    {
+      "id": 1,
+      "nome": "granola",
+      "tempo_preparo": 0,
+      "valor": 0
+    },
+    {
+      "id": 2,
+      "nome": "paçoca",
+      "tempo_preparo": 3,
+      "valor": 3
+    },
+    {
+      "id": 3,
+      "nome": "leite ninho",
+      "tempo_preparo": 0,
+      "valor": 3
+    }
+  ],
+  "pedidos": [
+    {
+      "nome": "Frozen de Açaí",
+      "tamanho": 300,
+      "unidade": "ml",
+      "sabor": "kiwi",
+      "adicionais": [
+        {
+          "id": 1,
+          "nome": "granola",
+          "valor": 0
+        },
+        {
+          "id": 2,
+          "nome": "paçoca",
+          "valor": 3
+        },
+        {
+          "id": 3,
+          "nome": "leite ninho",
+          "valor": 3
+        }
+      ],
+      "tempo": 10,
+      "valor": 10,
+      "id": 1
+    }
+  ]
+}
