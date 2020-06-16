@@ -14,5 +14,5 @@ node_modules/
 dist/
 
 # IDE
-.vscode
-.idea
+.vscode/
+.idea/

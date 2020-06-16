@@ -1,5 +1,5 @@
-.idea
-.vscode
+.idea/
+.vscode/
 .gitignore
 docker-compose.yml
 README.md
