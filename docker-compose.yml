@@ -4,11 +4,8 @@ services:
   api_uds:
     build:
       context: ./api
-    command: "node dist/index.min.js"
     ports:
       - ${API_PORT}:80
-    volumes:
-      - ./api:/api
     tty: true
 
   app_uds:
@@ -16,8 +13,6 @@ services:
       context: ./app
     ports:
       - ${APP_PORT}:80
-    volumes:
-      - ./app:/app
     tty: true
     depends_on:
       - api_uds

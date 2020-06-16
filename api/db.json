@@ -68,32 +68,5 @@
       "valor": 3
     }
   ],
-  "pedidos": [
-    {
-      "nome": "Frozen de Açaí",
-      "tamanho": 300,
-      "unidade": "ml",
-      "sabor": "kiwi",
-      "adicionais": [
-        {
-          "id": 1,
-          "nome": "granola",
-          "valor": 0
-        },
-        {
-          "id": 2,
-          "nome": "paçoca",
-          "valor": 3
-        },
-        {
-          "id": 3,
-          "nome": "leite ninho",
-          "valor": 3
-        }
-      ],
-      "tempo": 10,
-      "valor": 10,
-      "id": 1
-    }
-  ]
+  "pedidos": []
 }

@@ -1,11 +1,5 @@
 .idea/
 .vscode/
 node_modules/
-nginx/
-public/
-.browserslistrc
-.editorconfig
-.eslintrc.js
 .gitignore
-babel.config.js
 Dockerfile
